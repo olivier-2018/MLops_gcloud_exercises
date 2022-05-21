@@ -1,0 +1,4 @@
+outs:
+- md5: bdf3a78aba624df9fb975606c5c92b1c
+  size: 379763062
+  path: dvc_data.csv
