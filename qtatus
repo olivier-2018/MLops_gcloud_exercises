@@ -1,0 +1,203 @@
+[33mcommit 9321e3d52dc8b6ec974f3011a8ff051924b1a726[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: My Name <myName@example.com>
+Date:   Sat May 21 12:25:32 2022 +0000
+
+    Revert "changed data"
+    
+    This reverts commit c3c51c14288c37442e8fb9b21128d4ee283b0139.
+
+[33mcommit c3c51c14288c37442e8fb9b21128d4ee283b0139[m
+Author: My Name <myName@example.com>
+Date:   Sat May 21 12:18:37 2022 +0000
+
+    changed data
+
+[33mcommit 2d886dc55ed8c3a361d4965828e44e610dbdc4cf[m
+Author: My Name <myName@example.com>
+Date:   Sat May 21 12:11:11 2022 +0000
+
+    initial data
+
+[33mcommit 37dd39f4926223dea01056b39120d604ce19b027[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Wed May 18 15:25:15 2022 +0200
+
+    Fix mlflow URL
+
+[33mcommit f07dcd95cf0332db8b48c84069fe2e44ce872ce7[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Tue May 17 18:08:02 2022 +0200
+
+    Use same image as jupyter notebooks
+
+[33mcommit ae09a24980ff2335bde0437813718193feabe0c9[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Mon May 16 20:53:44 2022 +0200
+
+    Pin dependencies
+
+[33mcommit 8d2e93a6f23f57e03c44b4fc06a379ed0b02c4ef[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Sat May 14 10:53:58 2022 +0200
+
+    Remove solution
+
+[33mcommit 399a21c79f0534aa54563d63142b18feb7147177[m
+Merge: 012cdfb 430bec7
+Author: Florian Lüscher <florian@florianluescher.ch>
+Date:   Wed Aug 11 12:50:49 2021 +0200
+
+    Merge pull request #1 from severinraez/main
+    
+    Add .gcloudignore to speed up `cloud builds submit`
+
+[33mcommit 430bec7235146ee271fb8028441c2911b5e01a3e[m
+Author: Severin Räz <raez@puzzle.ch>
+Date:   Wed Aug 11 10:01:31 2021 +0200
+
+    Add .gcloudignore to speed up `cloud builds submit`
+
+[33mcommit 012cdfb7801332e21420d236225dc00e5fa8f507[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Tue Aug 10 15:07:54 2021 +0200
+
+    Fix MLFlow Tracking endpoint URL
+
+[33mcommit 818a0fb81192822f3666cd29c92df753336b69b1[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Tue Aug 10 08:47:28 2021 +0200
+
+    Update Port of Eligibility serivce in README
+
+[33mcommit fb30ab6a21f8419392046a8b920e8eff329b77e3[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Mon Aug 9 17:24:46 2021 +0200
+
+    Update documentation for cluster setup
+
+[33mcommit 5b4ccbae8c643323d78159d6bbacc344b560b9c3[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Mon Aug 9 17:24:17 2021 +0200
+
+    Update ex 02 & 04
+
+[33mcommit 848b82ab720f158e1148e251e861262f42d1dbca[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Mon Aug 9 16:31:42 2021 +0200
+
+    Unpin pipeline dependencies
+
+[33mcommit bea19f2a0752c1dab21bcbd386d1401d4b2e7693[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Mon Aug 9 09:15:09 2021 +0200
+
+    Pin Python dependencies
+
+[33mcommit 30164781cf9e0e2ada50bec8b94f07fbd0ebea73[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Sat May 29 09:30:54 2021 +0200
+
+    Add solution Ex04
+
+[33mcommit 4f59a0b99df3062dcb857c134b731d848df6355c[m[33m ([m[1;31morigin/day2[m[33m)[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Fri May 28 15:23:57 2021 +0200
+
+    Incorporate Feedback
+
+[33mcommit 373656c5b88ce0c1a81460ba5048f89ca78bcad6[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Thu May 27 19:52:31 2021 +0200
+
+    Publish excercies for day2
+
+[33mcommit c72be054c8d453e24d2be7a13c9f76665fc04f71[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Fri May 7 10:32:46 2021 +0200
+
+    Use prebuilt image
+
+[33mcommit dc9b2ea9690c118c53db118a5253cbd677dfb3f7[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Thu May 6 17:50:27 2021 +0200
+
+    Reset cloudbuild
+
+[33mcommit 6750662ecd410c7d484458a5dce0a7acc72bdcc1[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Thu May 6 17:48:55 2021 +0200
+
+    Don't require different sklearn version
+
+[33mcommit 86eabcbacbe5225db513b4884d06d39444d812b0[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Thu May 6 17:48:14 2021 +0200
+
+    Use different base image
+
+[33mcommit e977d7fbc79bfebca5e2cf7257effe6f09a2452f[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Thu May 6 16:01:35 2021 +0200
+
+    Scale input before fitting
+
+[33mcommit 78d29f87c17d4e669360ce0b18dccdeceb9f41e0[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Thu May 6 15:57:49 2021 +0200
+
+    Add excercise 5
+
+[33mcommit e57405574c07b65e3f91b359f876b5d8253abe9e[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Thu May 6 15:55:53 2021 +0200
+
+    Reference container
+
+[33mcommit aac6749a57422224f456f60bdaa3cb56f52d9be2[m
+Merge: c116b0b a67ea22
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Thu May 6 09:12:01 2021 +0200
+
+    Merge branch 'main' of https://github.com/dsi-engineering-ag/ml-in-production-excercises
+
+[33mcommit c116b0b136483f644150b6326d0c409d3c604b76[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Thu May 6 09:11:44 2021 +0200
+
+    Incorporate Feedback
+
+[33mcommit a67ea2247202e76cc0475ace2549ebc3576c8ea6[m
+Author: Your Name <you@example.com>
+Date:   Thu May 6 09:05:12 2021 +0200
+
+    add link to mlflow
+
+[33mcommit ef1b31a9931e739710e01f2c33af2a6116164386[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Thu May 6 09:02:14 2021 +0200
+
+    Add EX04
+
+[33mcommit 3b3451ac9942b0e0375e20a95e7df6042613a4b3[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Wed May 5 16:49:35 2021 +0200
+
+    Link docker compose
+
+[33mcommit 6e60653eb30fe673180ecdd07609d299e7433db2[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Wed May 5 16:37:34 2021 +0200
+
+    Dont install curl
+
+[33mcommit ae3491db3a8f5224415d6f436d02b6d7c8edd5ed[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Wed May 5 16:29:20 2021 +0200
+
+    Update compose
+
+[33mcommit da1e1fd621affe22e686f77cbf9193736aa1901b[m
+Author: Florian Lüscher <florian.luescher@dsiag.ch>
+Date:   Wed May 5 16:04:03 2021 +0200
+
+    Initial commit

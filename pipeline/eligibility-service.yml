@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: fluescher/sustaino-dummy-service
+          # image: fluescher/sustaino-dummy-service
+          image: gcr.io/academy-300812/olivier/eligiblity-service:latest
           ports:
             - containerPort: 9000
 ---

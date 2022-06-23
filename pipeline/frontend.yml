@@ -20,6 +20,8 @@ spec:
           env:
             - name: ELIGIBILITY_API_ENDPOINT
               value: http://eligibility-service:9000/predict
+              # value: http://mlproduction.dsiag.ch/seldon/<yourname>/<yourname>-model/api/v1.0/predictions
+              # value: http://mlproduction.dsiag.ch/seldon/olivier/olivier-model/api/v1.0/predictions
           ports:
             - containerPort: 8000
 ---

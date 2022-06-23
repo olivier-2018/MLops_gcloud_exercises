@@ -1,0 +1,22 @@
+apiVersion: machinelearning.seldon.io/v1alpha2
+kind: SeldonDeployment
+metadata:
+  name: olivier-model
+spec:
+  name: olivier-model-deployment
+  predictors:
+  - componentSpecs:
+    - spec:
+        containers:
+        - name: classifier
+          image: fluescher/seldon-dummy-service
+    graph:
+      children: []
+      endpoint:
+        type: REST
+      name: classifier
+      type: MODEL
+    name: eligibility
+    labels:
+      version: v1
+    replicas: 1

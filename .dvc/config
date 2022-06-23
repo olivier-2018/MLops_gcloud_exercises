@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = gs://mlinproduction/oli
+['remote "claudioremote"']
+    url = gs://mlinproduction/claudioschmidli

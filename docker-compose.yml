@@ -9,7 +9,8 @@ services:
     links:
       - eligibility-service
   eligibility-service:
-    build: ./services/dummy
+    # build: ./services/dummy
+    build: ./services/eligibility
     ports:
       - "9000:9000"
   jupyter:

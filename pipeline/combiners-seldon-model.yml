@@ -1,0 +1,36 @@
+apiVersion: machinelearning.seldon.io/v1alpha2
+kind: SeldonDeployment
+metadata:
+  name: <yourname>-model
+spec:
+  name: <yourname>-model-deployment
+  predictors:
+  - componentSpecs:
+    - spec:
+        containers:
+        - name: dummy-classifier
+          image: fluescher/seldon-dummy-service
+        - name: real-classifier
+          image: gcr.io/academy-300812/<yourname>/eligiblity-service:latest
+        - name: combiner
+          image: fluescher/seldon-combiner
+    graph:
+      name: combiner
+      type: COMBINER
+      endpoint:
+        type: REST
+      children:
+      - children: []
+        name: dummy-classifier
+        type: MODEL
+        endpoint:
+          type: REST
+      - children: []
+        name: real-classifier
+        type: MODEL
+        endpoint:
+          type: REST
+    name: eligiblity
+    labels:
+      version: v1
+    replicas: 1

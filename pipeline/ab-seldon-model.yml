@@ -1,0 +1,38 @@
+apiVersion: machinelearning.seldon.io/v1alpha2
+kind: SeldonDeployment
+metadata:
+  # name: <yourname>-model
+  name: olivier-model
+spec:
+  # name: <yourname>-model
+  name: olivier-model
+  predictors:
+    - componentSpecs:
+        - spec:
+            containers:
+            - name: dummy-classifier
+              image: fluescher/seldon-dummy-service
+      graph:
+        children: []
+        endpoint:
+          type: REST
+        name: dummy-classifier
+        type: MODEL
+      name: dummy-classifier
+      replicas: 1
+      traffic: 20
+    - componentSpecs:
+        - spec:
+            containers:
+            - name: real-classifier
+              # image: gcr.io/academy-300812/<yourname>/eligiblity-service:latest
+              image: gcr.io/academy-300812/olivier/eligiblity-service:latest
+      graph:
+        children: []
+        endpoint:
+          type: REST
+        name: real-classifier
+        type: MODEL
+      name: real-classifier
+      replicas: 1
+      traffic: 80

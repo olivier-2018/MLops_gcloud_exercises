@@ -1,5 +1,7 @@
 # Machine Learning in Production
 
+# Repo forked from https://github.com/dsi-engineering-ag/ml-in-production-excercises
+
 This repository contains the basic environment for the excercises of the course 'Machine Learning in Production'.
 
 To do the excercises, you need a Docker installation and `docker-compose`.
